@@ -9,6 +9,7 @@
 - Documentation Writer: Automatically generate code documentation
 - Code Translator: Translate code between different programming languages
 - Mixture of Agents : This MOA  Architechture can harness the collective strengths of multiple LLMs
+- Gemini API Code Execution : This feature enables the model to generate and run Python code 
 ## Preview :
 
 
