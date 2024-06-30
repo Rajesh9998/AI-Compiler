@@ -14,7 +14,7 @@ os.environ['MIXTRAL_API_KEY'] = "YOUR_API_KEY"
 # Initialize clients
 groq_client = Groq(api_key=os.getenv('GROQ_API_KEY'))
 genai.configure(api_key=os.getenv('GENAI_API_KEY'))
-gemini_model = genai.GenerativeModel('gemini-1.5-flash')
+gemini_model = genai.GenerativeModel('gemini-1.5-flash',tools='code_execution')
 mixtral_client = OpenAI(
     base_url="https://integrate.api.nvidia.com/v1",
     api_key=os.getenv('MIXTRAL_API_KEY')
